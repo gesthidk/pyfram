@@ -1,0 +1,8 @@
+services:
+  pythtest:
+    build: .
+    container_name: test-python
+    volumes:
+      - .:/pyfram
+    working_dir: /pyfram
+    command: pytest tests/ -v

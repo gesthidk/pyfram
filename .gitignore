@@ -1,0 +1,35 @@
+# Build artifacts
+build/
+*.so
+*.a
+*.o
+*.cmake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.log
+
+# Virtual env
+.env
+venv/
